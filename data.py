@@ -90,14 +90,14 @@ exercises = [
             ["The posters are ___ the wall.", ["on"]],
             ["The bike is ___ the garage.", ["in"]],
             ["The bank is ___ the city.", ["in"]],
-            ["We're apartement is ___ 3654 Valentine Street.", ["at"]],
+            ["We're apartment is ___ 3654 Valentine Street.", ["at"]],
             ["Our is ___ Oak Avenue.", ["on"]],
             ["New York is ___ the United States.", ["in"]],
             ["The dentists are ___ work.", ["at"]],
             ["The expression is ___ the blackboard.", ["on"]],
             ["The lights are ___ the celling.", ["on"]],
 
-            ["Is the police officer in ___ car?", ["his","her"]],
+            ["Is the police officer in ___ car?", ["his", "her"]],
             ["Mary is at work. ___ office is in Leblon.", ["her"]],
             ["We're at ___ school.", ["our"]],
             ["Where is your professor? ___ professor is at the university.", ["My"]],
@@ -105,6 +105,17 @@ exercises = [
             ["(Ruth and I) ___ birthday is on the 10th of May.", ["Our"]],
             ["Dick and I are in ___ work office.", ["our"]],
             ["(John and you) ___ pictures are very good.", ["Your"]],
+
+            ["Correct your exercises. Correct ___ ", ["Correct them."]],
+            ["Repeat your name. Repeat ___ ", ["Repeat it."]],
+            ["Call Paul. Call ___ ", ["Call him."]],
+            ["Call the police officers. Call ___ ", ["Call them."]],
+            ["Look at the dog. Look at ___ ", ["Look at it."]],
+            ["Give ___ (Paul) a sandwich.", ["Give him a sandwich."]],
+            ["Give ___ (Paul and I) a Coke.", ["Give us a Coke."]],
+            ["Show ___ (I) your apartment.", ["Show me your apartment."]],
+            ["Show ___ (she) your bedroom.", ["Show her your bedroom."]],
+            ["Ask ___ (your father).", ["Ask him."]],
 
             ["English is important ___ Shell.", ["at"]],
             ["She's a teacher ___ Brasas.", ["at"]],
@@ -251,7 +262,8 @@ exercises = [
             ["5:15", ["five and fifth", "a quarter paste five"]],
             ["3:50", ["three and fifty", "ten to four"]],
             ["6:00", ["six o'clock"]],
-            ["11:45:", ["a quarter to noun", "a quarter to midday", "a quarter to launch", "a quarter to twelve", "eleven and forty five"]],
+            ["11:45:", ["a quarter to noun", "a quarter to midday", "a quarter to launch", "a quarter to twelve",
+                        "eleven and forty five"]],
             ["10:40", ["twenty to eleven", "ten and forty"]],
             ["4:30", ["half paste four", "four and thirty"]],
             ["7:20", ["twenty paste seven", "seven and twenty"]],
@@ -299,4 +311,18 @@ exercises = [
             # [Format.underline + "" + Format.end + "", ""],
         ]
     },
+    {
+        "type": TYPE_REWRITE,
+        "tip": "Ask questions about the quotes words.",
+        "questions": {
+            ["There is " + Format.underline + "one" + Format.end + " wastebasket in the room.",
+             "How many wastebaskets are there in the room?"],
+            ["Sarah and David are " + Format.underline + "English teachers" + Format.end + ".",
+             "What are they profession?"],
+            ["I'm " + Format.underline + "twenty-nine years" + Format.end + " old.", "How old are you"],
+            ["His car is " + Format.underline + "here" + Format.end + ".", "Where's his car?"],
+            # [Format.underline + "" + Format.end + "", ""],
+            # [Format.underline + "" + Format.end + "", ""],
+        }
+    }
 ]
