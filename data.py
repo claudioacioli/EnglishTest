@@ -198,6 +198,18 @@ exercises = [
         ]
     },
     {
+        "type": TYPE_COMPLETE,
+        "tip": "There is or There are",
+        "questions": [
+            ["___ a magazine in my bag.", ["there is"]],
+            ["___ a club in the city.", ["there is"]],
+            ["___ fast trains in London.", ["there are"]],
+            ["___ a mechanic in the garage.", ["there is"]],
+            ["___ good students in the class.", ["there are"]],
+            # ["___", ""],
+        ]
+    },
+    {
         "type": TYPE_REWRITE,
         "tip": "Short answers:",
         "questions": [
